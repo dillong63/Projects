@@ -1,0 +1,93 @@
+/* Code Written by Dillon Geary for CSC 49008 */
+    
+/* by the way CSS sucks */
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0; 
+}
+footer{
+	background-color:#333;
+	color:#fff;
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	bottom:0;
+	width:100%;
+}
+
+footer a{
+	color:#fff;
+	font-weight:bold;
+}
+footer p{
+	font-family:copperplate;
+}
+footer a:hover{
+	color:#ffd700;
+}
+.footer-socials{
+	margin-top:10px;
+}
+.footer-socials a{
+	display:inline-block;
+	margin:0 10px;
+	color: #fff;
+	font-size:20px;
+}
+.content {
+	text-align: center;
+}
+
+.page-head {
+	background-color: #333; 
+	color: #fff; 
+	padding: 5px;
+	font-family: copperplate;
+	font-weight: bold;
+	font-size: 4em;
+	margin-bottom:5px;
+}
+.page-head h1 {
+	margin: 10px 0;
+
+}
+.img-lab {
+	display: inline-block;
+	margin: 10px;
+}
+
+.imgblock{
+	margin-top:40px;
+	margin-bottom:10px;
+}
+
+.img-cont{
+	display: flex;
+	white-space:nowrap;
+	justify-content: center;
+}
+
+.inl-img {
+	width: 200px;
+	height: 200px;
+}
+
+.label-img {
+	font-weight: bold;
+	color: #555; 
+}
+table{
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 30px;
+}
+
+.stat-head{
+	text-align: center;
+	margin: 20px;
+}
+

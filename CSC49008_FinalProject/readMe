@@ -1,0 +1,15 @@
+Code developed by: Dillon Geary
+Developed accross Pi and Arduino
+Laguages used: C(Arduino), Python, JavaScript, HTML, CSS
+
+This code is for a parking management thing. Parking sensors upload
+their status to dweet where a central device monitors this and updates the
+display accordingly. The real time money made and sensor values are then relayed to dweet which
+is accessed by a website hosted on the dweet that displays this info.
+
+Steps for launch:
+1. The sensors should be connected first. Ensure each sensor connets to local
+network. If any errors occur with network retry. 
+2. Power up Pi and ensure apache web server is running. Run the processes.py with python3. 
+3. At this point everything should function together. The website updates on refresh. Refresh needs
+1sec between accesses to dweet to not cause an error.
